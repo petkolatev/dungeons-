@@ -40,4 +40,4 @@ function passwordValidator(pass) {
         }
     }
 }
-passwordValidator('Pa$s$s')
+passwordValidator('MyPass123')
