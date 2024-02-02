@@ -1,9 +1,17 @@
 function perfectNumber(num) {
-    let isPerfect = true
+    let SumDigit = 0
 
-    for (let i = 2; i < num; i++) {
+    for (let i = 1; i < num; i++) {
 
+        if (num % i === 0) {
+            SumDigit += i
+        }
     }
 
+    if (SumDigit === num) {
+        console.log("We have a perfect number!");
+    } else {
+        console.log("It's not so perfect.");
+    }
 }
-perfectNumber(6)
+perfectNumber(28)
