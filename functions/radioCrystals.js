@@ -95,7 +95,7 @@ function radioCrystals(array) {
             let newThickness = num - 2
             return newThickness
         }
-        function XrayCrystal(num) {
+        function xrayCrystal(num) {
             let newThickness = num + 1
             return newThickness
         }
