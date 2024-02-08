@@ -44,7 +44,7 @@ function radioCrystals(array) {
                 if (operation !== 'xray' || operation === 'first') {
                     currThickness = transportAndWashCrystal(currThickness)
                 }
-                currThickness = XrayCrystal(currThickness)
+                currThickness = xrayCrystal(currThickness)
                 operation = 'xray'
                 xray++
             }
