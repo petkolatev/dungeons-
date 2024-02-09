@@ -8,11 +8,15 @@ function detonateBomb(arr, bombArr) {
             command = 'stop'
             break;
         }
-        if (curr < radius) {
+        if (curr - radius < 0) {
+            radius = curr + radius + 1
             curr = 0
+            arr.splice(curr, radius);
+        } else {
+
+            arr.splice(curr - radius, radius * 2 + 1);
         }
-        arr.splice(curr, radius + 1);
-        arr.splice(curr - radius, radius * 2)
+
     }
     let sum = 0
     for (const i of arr) {
@@ -24,7 +28,7 @@ function detonateBomb(arr, bombArr) {
 //     [4, 2])
 // detonateBomb([1, 1, 2, 1, 1, 1, 2, 1, 1, 1],
 //     [2, 1])
-// detonateBomb([1, 7, 7, 1, 2, 3],
-//     [7, 1])
-detonateBomb([1, 4, 9, 2, 8, 3, 1, 1, 1],
-    [9, 3])
+detonateBomb([1, 7, 7, 1, 2, 3],
+    [7, 1])
+// detonateBomb([1, 9, 4, 4, 2, 8, 1],
+//     [9, 3])
