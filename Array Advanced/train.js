@@ -12,7 +12,7 @@ function addPassengers(array) {
                 let currWagon = Number(containingWagon[j]);
                 command = Number(command)
                 if (command + currWagon <= maxCapacity) {
-                    command = command + currWagon
+                    command += currWagon
                     containingWagon.splice(j, 1, command.toString())
                     break;
                 }
