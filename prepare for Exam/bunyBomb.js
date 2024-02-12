@@ -19,7 +19,7 @@ function bunyBomb(array) {
                 return
             }
             console.log(`bomb at ${rowNumber}:${columnNumber}`);
-            let prevRowValue = row[rowNumber - 1] ? row[rowNumber - 1][columnNumber - 1] : 1
+            let prevRowValue = row[rowNumber - 1] ? row[rowNumber - 1][columnNumber - 1] : 0
             let currRowValue = row[rowNumber - 1] ? row[rowNumber - 1][columnNumber - 1] : 0
             let nextRowValue = row[rowNumber - 1] ? row[rowNumber - 1][columnNumber - 1] : 0
 
