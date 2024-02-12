@@ -38,7 +38,6 @@ function bunyBomb(array) {
 
 
 
-
     })
 }
 bunyBomb(['10 10 10',

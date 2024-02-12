@@ -1,5 +1,6 @@
 function sum(arr) {
     let newArr = arr.map(n => n + 1)
+    newArr.sort((a, b) => a.localeCompare(b))
     console.log(newArr);
 }
-sum([1, 2, 3, 4])
+sum(['asd', 'ddds', 'wrr', 'ewwdff'])
