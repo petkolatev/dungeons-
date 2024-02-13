@@ -28,7 +28,7 @@ function detonateBomb(arr, bombArr) {
 //     [4, 2])
 // detonateBomb([1, 1, 2, 1, 1, 1, 2, 1, 1, 1],
 //     [2, 1])
-detonateBomb([1, 7, 7, 1, 2, 3],
-    [7, 1])
-// detonateBomb([1, 9, 4, 4, 2, 8, 1],
-//     [9, 3])
+// detonateBomb([1, 7, 7, 1, 2, 3],
+//     [7, 1])
+detonateBomb([1, 9, 4, 4, 2, 8, 1],
+    [9, 3])
