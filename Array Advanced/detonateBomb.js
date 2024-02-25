@@ -16,7 +16,6 @@ function detonateBomb(arr, bombArr) {
 
             arr.splice(curr - radius, radius * 2 + 1);
         }
-
     }
     let sum = 0
     for (const i of arr) {
