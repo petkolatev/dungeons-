@@ -1,4 +1,4 @@
-function countOddElements(input) {
+function countOddOccurrences(input) {
     let array = input.split(' ')
     let storeElements = {};
 
@@ -19,4 +19,4 @@ function countOddElements(input) {
     }
     console.log(result.join(' '));
 }
-countOddElements('Java C# Php PHP Java PhP 3 C# 3 1 5 C#')
+countOddOccurrences('Java C# Php PHP Java PhP 3 C# 3 1 5 C#')
