@@ -1,16 +1,7 @@
 function pascalCaseSpliter(input) {
-    let patern = /[A-Z]+/
-    let result = []
+    let result = input.split(/(?=[A-Z])/)
 
-    for (let index of input) {
-        if (patern.test(index)) {
-            result.push(', ' + index)
-        } else {
-            result.push(index)
-        }
-    }
-    result = result.join('').slice(2)
-    console.log(result);
+    console.log(result.join(', '));
 
 }
 pascalCaseSpliter('SplitMeIfYouCanHaHaYouCantOrYouCan')
