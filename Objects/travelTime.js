@@ -8,7 +8,7 @@ function sortTravelOffers(input) {
             if (!travelList[country].hasOwnProperty(town)) {
 
 
-                travelList[country] = { [town]: price }
+                travelList[country] = { [town]: Number(price) }
 
 
             }
