@@ -1,5 +1,5 @@
 function travelDestination(input) {
-    let pattern = /([=\/])(?<dest>[A-Z][A-Za-z]{2,})\1/gm
+    let pattern = /([=\/])(?<dest>[A-Z][A-Za-z]{2,})\1/g
     let store = []
     let travelPoint = 0
 

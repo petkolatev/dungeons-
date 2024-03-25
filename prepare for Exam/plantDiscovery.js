@@ -67,14 +67,13 @@ function plantDiscovery(input) {
     }
 
 }
-plantDiscovery(["0",
+plantDiscovery(["4",
     "Arnoldii<->4",
     "Woodii<->7",
     "Welwitschia<->2",
     "Welwitschia<->10",
     "Rate: Woodii - 10",
     "Rate: Woodii - 10",
-    "Rate: Welwitschia - 7",
     "Rate: Arnoldii - 3",
     "Rate: Woodii - 5",
     "Update: Woodii - 5",
